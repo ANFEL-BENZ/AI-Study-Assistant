@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Conda and environment variables
+.env
+.env.*
+!.env.example
+
+# Generated RAG data and indexes
+data/chunks.json
+data/faiss.index
+data/index.faiss
+data/*.pkl
+
+# Local PDF documents (check your actual folder structure)
+documents/
+data/*.pdf
+
+# Local caches
+.cache/
+.streamlit/secrets.toml
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
